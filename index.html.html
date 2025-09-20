@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+            margin-left: 200px;
+        }
+
+        .loader {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 20px solid #dddddd;
+            border-top: 20px solid gray;
+            border-bottom: 20px solid white;
+            animation: spinAnimate 2s linear infinite  normal;
+        }
+
+
+        @keyframes spinAnimate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        h2 {
+            font-size: 40px;
+            margin-left: 220px;
+            padding-top: 150px;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 27px;
+            padding-top: 30px;
+            margin-left: 220px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOADER</title>
+</head>
+
+<body style="background-color: bisque;">
+    <h2>LOADER</h2>
+    <div class="loader"></div>
+    <h1>LOADING......</h1>
+
+</body>
+
+</html>
